@@ -1,0 +1,403 @@
+0 [17/06/13 10:17:40:386][main][com.mchange.v2.log.MLog-<clinit>] MLog clients using log4j logging.
+840 [17/06/13 10:17:41:226][main][com.mchange.v2.c3p0.C3P0Registry-banner] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+1341 [17/06/13 10:17:41:727][main][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-getPoolManager] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15l9o186mjs41slz6ie|699b37d4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15l9o186mjs41slz6ie|699b37d4, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/hadoop, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+3775 [17/06/13 10:17:44:161][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化开始......
+3904 [17/06/13 10:17:44:290][main][com.jflyfox.system.dict.DictCache-init] ####数据字典Cache初始化......
+3957 [17/06/13 10:17:44:343][main][com.jflyfox.system.user.UserCache-init] ####用户Cache初始化......
+3969 [17/06/13 10:17:44:355][main][com.jflyfox.modules.admin.pageview.PageViewCache-init] ####PageViewCache初始化......
+3986 [17/06/13 10:17:44:372][main][com.jflyfox.modules.admin.friendlylink.FriendlylinkCache-init] ####FriendlylinkCache初始化......
+4036 [17/06/13 10:17:44:422][main][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+4057 [17/06/13 10:17:44:443][main][com.jflyfox.system.log.SysLog-init] ####日志配置初始化......
+4064 [17/06/13 10:17:44:450][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化结束......
+62887 [17/06/13 10:18:43:273][http-80-5][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+63177 [17/06/13 10:18:43:563][http-80-5][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+74718 [17/06/13 10:18:55:104][http-80-5][com.jfinal.core.ActionHandler-handle] 404 Action Not Found: /front/face
+87817 [17/06/13 10:19:08:203][http-80-1][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+150351 [17/06/13 10:20:10:737][http-80-5][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+187350 [17/06/13 10:20:47:736][http-80-6][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+717283 [17/06/13 10:29:37:669][http-80-1][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+717332 [17/06/13 10:29:37:718][http-80-1][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+2891933 [17/06/13 11:05:52:319][http-80-5][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+2892002 [17/06/13 11:05:52:388][http-80-5][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+2905068 [17/06/13 11:06:05:454][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+2950547 [17/06/13 11:06:50:933][http-80-3][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+4217311 [17/06/13 11:27:57:697][http-80-2][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+4217329 [17/06/13 11:27:57:715][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+4905258 [17/06/13 11:39:25:644][http-80-2][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+4905266 [17/06/13 11:39:25:652][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+4907869 [17/06/13 11:39:28:255][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+4989028 [17/06/13 11:40:49:414][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+5160674 [17/06/13 11:43:41:060][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+5222288 [17/06/13 11:44:42:674][http-80-6][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+5222292 [17/06/13 11:44:42:678][http-80-6][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+0 [17/06/13 11:50:25:606][main][com.mchange.v2.log.MLog-<clinit>] MLog clients using log4j logging.
+540 [17/06/13 11:50:26:146][main][com.mchange.v2.c3p0.C3P0Registry-banner] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+1016 [17/06/13 11:50:26:622][main][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-getPoolManager] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15l9o189xtwx1t3ubvl|7b797cbc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15l9o189xtwx1t3ubvl|7b797cbc, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/hadoop, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2511 [17/06/13 11:50:28:117][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化开始......
+2612 [17/06/13 11:50:28:218][main][com.jflyfox.system.dict.DictCache-init] ####数据字典Cache初始化......
+2664 [17/06/13 11:50:28:270][main][com.jflyfox.system.user.UserCache-init] ####用户Cache初始化......
+2686 [17/06/13 11:50:28:292][main][com.jflyfox.modules.admin.pageview.PageViewCache-init] ####PageViewCache初始化......
+2698 [17/06/13 11:50:28:304][main][com.jflyfox.modules.admin.friendlylink.FriendlylinkCache-init] ####FriendlylinkCache初始化......
+2719 [17/06/13 11:50:28:325][main][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+2742 [17/06/13 11:50:28:348][main][com.jflyfox.system.log.SysLog-init] ####日志配置初始化......
+2751 [17/06/13 11:50:28:357][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化结束......
+24475 [17/06/13 11:50:50:081][http-80-1][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+167042 [17/06/13 11:53:12:648][http-80-3][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+169514 [17/06/13 11:53:15:120][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+560649 [17/06/13 11:59:46:255][http-80-5][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+560661 [17/06/13 11:59:46:267][http-80-5][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+625848 [17/06/13 12:00:51:454][http-80-5][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+642644 [17/06/13 12:01:08:250][http-80-3][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+659224 [17/06/13 12:01:24:830][http-80-2][com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor-intercept] 异常：
+java.lang.NullPointerException
+	at com.jflyfox.modules.front.controller.MonitorController.facecompare(MonitorController.java:831)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jflyfox.component.interceptor.InterceptorConf.intercept(InterceptorConf.java:31)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.CommonInterceptor.intercept(CommonInterceptor.java:45)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.SiteInterceptor.intercept(SiteInterceptor.java:133)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.system.user.UserInterceptor.intercept(UserInterceptor.java:74)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UpdateCacheInterceptor.intercept(UpdateCacheInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.PageViewInterceptor.intercept(PageViewInterceptor.java:33)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UserKeyInterceptor.intercept(UserKeyInterceptor.java:28)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.JflyfoxInterceptor.intercept(JflyfoxInterceptor.java:26)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.SessionAttrInterceptor.intercept(SessionAttrInterceptor.java:48)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:38)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jflyfox.jfinal.component.handler.CurrentPathHandler.handle(CurrentPathHandler.java:53)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jflyfox.jfinal.component.handler.BasePathHandler.handle(BasePathHandler.java:48)
+	at com.jflyfox.jfinal.component.handler.HtmlHandler.handle(HtmlHandler.java:48)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+684261 [17/06/13 12:01:49:867][http-80-2][com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor-intercept] 异常：
+java.lang.NullPointerException
+	at com.jflyfox.modules.front.controller.MonitorController.facecompare(MonitorController.java:831)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jflyfox.component.interceptor.InterceptorConf.intercept(InterceptorConf.java:31)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.CommonInterceptor.intercept(CommonInterceptor.java:45)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.SiteInterceptor.intercept(SiteInterceptor.java:133)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.system.user.UserInterceptor.intercept(UserInterceptor.java:74)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UpdateCacheInterceptor.intercept(UpdateCacheInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.PageViewInterceptor.intercept(PageViewInterceptor.java:33)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UserKeyInterceptor.intercept(UserKeyInterceptor.java:28)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.JflyfoxInterceptor.intercept(JflyfoxInterceptor.java:26)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.SessionAttrInterceptor.intercept(SessionAttrInterceptor.java:48)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:38)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jflyfox.jfinal.component.handler.CurrentPathHandler.handle(CurrentPathHandler.java:53)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jflyfox.jfinal.component.handler.BasePathHandler.handle(BasePathHandler.java:48)
+	at com.jflyfox.jfinal.component.handler.HtmlHandler.handle(HtmlHandler.java:48)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+735139 [17/06/13 12:02:40:745][http-80-2][com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor-intercept] 异常：
+java.lang.NullPointerException
+	at com.jflyfox.modules.front.controller.MonitorController.facecompare(MonitorController.java:831)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jflyfox.component.interceptor.InterceptorConf.intercept(InterceptorConf.java:31)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.CommonInterceptor.intercept(CommonInterceptor.java:45)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.SiteInterceptor.intercept(SiteInterceptor.java:133)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.system.user.UserInterceptor.intercept(UserInterceptor.java:74)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UpdateCacheInterceptor.intercept(UpdateCacheInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.PageViewInterceptor.intercept(PageViewInterceptor.java:33)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UserKeyInterceptor.intercept(UserKeyInterceptor.java:28)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.JflyfoxInterceptor.intercept(JflyfoxInterceptor.java:26)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.SessionAttrInterceptor.intercept(SessionAttrInterceptor.java:48)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:38)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jflyfox.jfinal.component.handler.CurrentPathHandler.handle(CurrentPathHandler.java:53)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jflyfox.jfinal.component.handler.BasePathHandler.handle(BasePathHandler.java:48)
+	at com.jflyfox.jfinal.component.handler.HtmlHandler.handle(HtmlHandler.java:48)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+0 [17/06/13 13:36:45:288][main][com.mchange.v2.log.MLog-<clinit>] MLog clients using log4j logging.
+574 [17/06/13 13:36:45:862][main][com.mchange.v2.c3p0.C3P0Registry-banner] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+897 [17/06/13 13:36:46:185][main][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-getPoolManager] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15l9o18dqkjr1mg927p|3c9e4c38, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15l9o18dqkjr1mg927p|3c9e4c38, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/hadoop, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2366 [17/06/13 13:36:47:654][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化开始......
+2496 [17/06/13 13:36:47:784][main][com.jflyfox.system.dict.DictCache-init] ####数据字典Cache初始化......
+2534 [17/06/13 13:36:47:822][main][com.jflyfox.system.user.UserCache-init] ####用户Cache初始化......
+2549 [17/06/13 13:36:47:837][main][com.jflyfox.modules.admin.pageview.PageViewCache-init] ####PageViewCache初始化......
+2556 [17/06/13 13:36:47:844][main][com.jflyfox.modules.admin.friendlylink.FriendlylinkCache-init] ####FriendlylinkCache初始化......
+2629 [17/06/13 13:36:47:917][main][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+2658 [17/06/13 13:36:47:946][main][com.jflyfox.system.log.SysLog-init] ####日志配置初始化......
+2682 [17/06/13 13:36:47:970][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化结束......
+19031 [17/06/13 13:37:04:319][http-80-4][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+100801 [17/06/13 13:38:26:089][http-80-4][org.apache.hadoop.util.Shell-getWinUtilsPath] Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:356)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:371)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:364)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.conf.Configuration.getBoolean(Configuration.java:1437)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:367)
+	at com.hl.hadoop.HHDFS.open(HHDFS.java:98)
+	at com.hl.hadoop.HHDFS.upload(HHDFS.java:65)
+	at com.jflyfox.modules.front.controller.MonitorController.facecompare(MonitorController.java:857)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jflyfox.component.interceptor.InterceptorConf.intercept(InterceptorConf.java:31)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.CommonInterceptor.intercept(CommonInterceptor.java:45)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.SiteInterceptor.intercept(SiteInterceptor.java:133)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.system.user.UserInterceptor.intercept(UserInterceptor.java:74)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UpdateCacheInterceptor.intercept(UpdateCacheInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.PageViewInterceptor.intercept(PageViewInterceptor.java:33)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UserKeyInterceptor.intercept(UserKeyInterceptor.java:28)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.JflyfoxInterceptor.intercept(JflyfoxInterceptor.java:26)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.SessionAttrInterceptor.intercept(SessionAttrInterceptor.java:48)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:38)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jflyfox.jfinal.component.handler.CurrentPathHandler.handle(CurrentPathHandler.java:53)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jflyfox.jfinal.component.handler.BasePathHandler.handle(BasePathHandler.java:48)
+	at com.jflyfox.jfinal.component.handler.HtmlHandler.handle(HtmlHandler.java:48)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+101519 [17/06/13 13:38:26:807][http-80-4][org.apache.hadoop.util.NativeCodeLoader-<clinit>] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+113595 [17/06/13 13:38:38:883][http-80-4][com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor-intercept] 异常：
+java.lang.IllegalArgumentException: java.net.UnknownHostException: hadoop11
+	at org.apache.hadoop.security.SecurityUtil.buildTokenService(SecurityUtil.java:378)
+	at org.apache.hadoop.hdfs.NameNodeProxies.createNonHAProxy(NameNodeProxies.java:310)
+	at org.apache.hadoop.hdfs.NameNodeProxies.createProxy(NameNodeProxies.java:176)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:678)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:368)
+	at com.hl.hadoop.HHDFS.open(HHDFS.java:98)
+	at com.hl.hadoop.HHDFS.upload(HHDFS.java:65)
+	at com.jflyfox.modules.front.controller.MonitorController.facecompare(MonitorController.java:857)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jflyfox.component.interceptor.InterceptorConf.intercept(InterceptorConf.java:31)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.CommonInterceptor.intercept(CommonInterceptor.java:45)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.SiteInterceptor.intercept(SiteInterceptor.java:133)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.system.user.UserInterceptor.intercept(UserInterceptor.java:74)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UpdateCacheInterceptor.intercept(UpdateCacheInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.PageViewInterceptor.intercept(PageViewInterceptor.java:33)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UserKeyInterceptor.intercept(UserKeyInterceptor.java:28)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.JflyfoxInterceptor.intercept(JflyfoxInterceptor.java:26)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.SessionAttrInterceptor.intercept(SessionAttrInterceptor.java:48)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:38)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jflyfox.jfinal.component.handler.CurrentPathHandler.handle(CurrentPathHandler.java:53)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jflyfox.jfinal.component.handler.BasePathHandler.handle(BasePathHandler.java:48)
+	at com.jflyfox.jfinal.component.handler.HtmlHandler.handle(HtmlHandler.java:48)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.UnknownHostException: hadoop11
+	... 56 more
+263009 [17/06/13 13:41:08:297][http-80-4][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+287244 [17/06/13 13:41:32:532][http-80-4][com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor-intercept] 异常：
+java.lang.IllegalArgumentException: java.net.UnknownHostException: hadoop11
+	at org.apache.hadoop.security.SecurityUtil.buildTokenService(SecurityUtil.java:378)
+	at org.apache.hadoop.hdfs.NameNodeProxies.createNonHAProxy(NameNodeProxies.java:310)
+	at org.apache.hadoop.hdfs.NameNodeProxies.createProxy(NameNodeProxies.java:176)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:678)
+	at org.apache.hadoop.hdfs.DFSClient.<init>(DFSClient.java:619)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.initialize(DistributedFileSystem.java:149)
+	at org.apache.hadoop.fs.FileSystem.createFileSystem(FileSystem.java:2653)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:368)
+	at com.hl.hadoop.HHDFS.open(HHDFS.java:98)
+	at com.hl.hadoop.HHDFS.upload(HHDFS.java:65)
+	at com.jflyfox.modules.front.controller.MonitorController.facecompare(MonitorController.java:857)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jflyfox.component.interceptor.InterceptorConf.intercept(InterceptorConf.java:31)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.CommonInterceptor.intercept(CommonInterceptor.java:45)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.SiteInterceptor.intercept(SiteInterceptor.java:133)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.system.user.UserInterceptor.intercept(UserInterceptor.java:74)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UpdateCacheInterceptor.intercept(UpdateCacheInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.PageViewInterceptor.intercept(PageViewInterceptor.java:33)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.component.interceptor.UserKeyInterceptor.intercept(UserKeyInterceptor.java:28)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.JflyfoxInterceptor.intercept(JflyfoxInterceptor.java:26)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.SessionAttrInterceptor.intercept(SessionAttrInterceptor.java:48)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.ext.interceptor.SessionInViewInterceptor.intercept(SessionInViewInterceptor.java:44)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jflyfox.jfinal.component.interceptor.ExceptionInterceptor.intercept(ExceptionInterceptor.java:38)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:67)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jflyfox.jfinal.component.handler.CurrentPathHandler.handle(CurrentPathHandler.java:53)
+	at com.jfinal.ext.handler.ContextPathHandler.handle(ContextPathHandler.java:47)
+	at com.jflyfox.jfinal.component.handler.BasePathHandler.handle(BasePathHandler.java:48)
+	at com.jflyfox.jfinal.component.handler.HtmlHandler.handle(HtmlHandler.java:48)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:235)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:233)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:191)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:127)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:102)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:109)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:298)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:857)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.process(Http11Protocol.java:588)
+	at org.apache.tomcat.util.net.JIoEndpoint$Worker.run(JIoEndpoint.java:489)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.UnknownHostException: hadoop11
+	... 56 more
+0 [17/06/13 16:33:33:382][main][com.mchange.v2.log.MLog-<clinit>] MLog clients using log4j logging.
+458 [17/06/13 16:33:33:840][main][com.mchange.v2.c3p0.C3P0Registry-banner] Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+727 [17/06/13 16:33:34:109][main][com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource-getPoolManager] Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 2, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge15l9o18k1xqt1t0drh1|338f0970, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge15l9o18k1xqt1t0drh1|338f0970, idleConnectionTestPeriod -> 0, initialPoolSize -> 10, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/hadoop, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 20, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 100, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 10, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+1747 [17/06/13 16:33:35:129][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化开始......
+1811 [17/06/13 16:33:35:193][main][com.jflyfox.system.dict.DictCache-init] ####数据字典Cache初始化......
+1832 [17/06/13 16:33:35:214][main][com.jflyfox.system.user.UserCache-init] ####用户Cache初始化......
+1838 [17/06/13 16:33:35:220][main][com.jflyfox.modules.admin.pageview.PageViewCache-init] ####PageViewCache初始化......
+1858 [17/06/13 16:33:35:240][main][com.jflyfox.modules.admin.friendlylink.FriendlylinkCache-init] ####FriendlylinkCache初始化......
+1866 [17/06/13 16:33:35:248][main][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+1871 [17/06/13 16:33:35:253][main][com.jflyfox.system.log.SysLog-init] ####日志配置初始化......
+1874 [17/06/13 16:33:35:256][main][com.jflyfox.component.util.JFlyFoxCache-init] ####缓存初始化结束......
+953543 [17/06/13 16:49:26:925][http-80-1][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+953552 [17/06/13 16:49:26:934][http-80-1][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+9412615 [17/06/13 19:10:25:997][http-80-1][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+9425972 [17/06/13 19:10:39:354][http-80-1][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+9431265 [17/06/13 19:10:44:647][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+10486206 [17/06/13 19:28:19:588][http-80-4][com.jflyfox.modules.admin.folder.FolderService-initMenuKey] ####目录Key初始化......
+10486299 [17/06/13 19:28:19:681][http-80-4][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
+10496596 [17/06/13 19:28:29:978][http-80-2][com.jflyfox.system.user.UserInterceptor-intercept] ####非法的请求
