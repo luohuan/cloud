@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8e5cfc-edba-4231-8747-726343ea4580" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cms.log" afterPath="$PROJECT_DIR$/logs/cms.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cms.log_2017-06-11.log" afterPath="$PROJECT_DIR$/logs/cms.log_2017-06-11.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cms.log_2017-06-13.log" afterPath="$PROJECT_DIR$/logs/cms.log_2017-06-13.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cms.log_2017-07-03.log" afterPath="$PROJECT_DIR$/logs/cms.log_2017-07-03.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cms.log_2017-07-04.log" afterPath="$PROJECT_DIR$/logs/cms.log_2017-07-04.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/cms.log_2017-07-06.log" afterPath="$PROJECT_DIR$/logs/cms.log_2017-07-06.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -190,12 +184,12 @@
       <updated>1504502495438</updated>
       <workItem from="1504502496846" duration="27000" />
       <workItem from="1504577101595" duration="16000" />
-      <workItem from="1504577630070" duration="126000" />
+      <workItem from="1504577630070" duration="940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169000" />
+    <option name="totallyTimeSpent" value="983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
